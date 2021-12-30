@@ -3,7 +3,7 @@
 
 # Background
 
-Nigeria is an import-dependent economy. Historically, upward movements in the exchange rate have been a notorious driver of inflation via it's pass-through effect to domestic prices. Inflation expectation is a fundamental factor considered in forecasting inflation. However, accurately capturing this information has been fraught with difficulty. This study takes advantage of raw sentiments about the naira derived from tweets, and daily frequency exchange rate data, in modeling sentiments as a predictor of exchange rate trends. Ultimately, the study aims to improve the reliability of essential data used to forecast exchange rate and inflation rate in the Nigeria. This analysis is useful to the Central Bank, policy institutions, business entities and generally, any individual or organization of which macroeconomic data is of interest. 
+Nigeria is an import-dependent economy. Historically, upward movements in the exchange rate have been a notorious driver of inflation via it's pass-through effect to domestic prices. Inflation expectation is a fundamental factor considered in forecasting inflation. However, accurately capturing this information has been fraught with difficulty. This study takes advantage of raw sentiments about the naira derived from tweets, and daily frequency exchange rate data, in modeling sentiments as a predictor of exchange rate trends. Ultimately, the study aims to improve the reliability of essential data used to forecast inflation and exchange rate trends in Nigeria. This analysis is useful to the Central Bank, policy institutions, business entities and generally, any individual or organization of which macroeconomic data is of interest. 
 
 # Data 
 
