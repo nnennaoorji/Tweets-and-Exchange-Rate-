@@ -14,7 +14,7 @@ Nigeria is an import-dependent economy. Historically, upward movements in the ex
 The table below summarizes the data cleaning process:
 | Data | Action |
 |---|---|
-| Tweets | - Dropped duplicates - Scraper could not find tweets for Feb 2016, May 28th, 2017, April 1&2, 2016 - Removed links and special characters using Regex - Post cleaning, 116,330 unique tweets from 51,226 users  |
+| Tweets | - Dropped duplicates - Scraper did not find tweets with the relevant search terms for Feb 2016, May 28th, 2017, April 1&2, 2016 - Removed links and special characters using Regex - Post cleaning, 116,330 unique tweets from 51,226 users  |
 | Twitter Sentiments | - Aggregated sentiments into daily averages - Filled in nulls with average sentiment scores - Post cleaning, 2,526 observations total |
 | Exchange Rate  | - Dataset excluded weekends & holidays - Filled in nulls with last known observations ('ffill') - Filled in nulls for 1/1/2014 with next known observation ('bfill') - Post Cleaning, 2,526 observations total |
 
@@ -44,7 +44,7 @@ The following models were specified to address the problem statement:
 - **Yes**, twitter sentiments can help to predict the trend of exchange rate in Nigeria. It appears negative sentiments matter more.
 - Study specified 3 models – Granger Causality,  ARDL & SARIMAX in analyzing the relationship between NGN/USD exchange rate and sentiments from 116,330 tweets by 51,226 users between 2014 and 2020.
 - Granger Causality Test showed bi-directional causality running from sentiments (negative & compound scores) to exchange rate & vice versa.  
-- ARDL model corroborated this finding as significant long run relationship was reported for (negative) sentiments and exchange rate movements
+- ARDL model corroborated this finding as significant long run relationship was reported for (negative) sentiments and exchange rate movements.
 
 
 # Recommendations / Next Steps
